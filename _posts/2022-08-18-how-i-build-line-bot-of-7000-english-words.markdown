@@ -3,7 +3,7 @@ layout: post
 title: "我如何製作「高中7000單」測驗Line bot"
 ---
 
-| ![高中7000單](/images/words7000-logo.png) | ![高中7000單](/images/words7000-logo.png) | ![高中7000單](/images/words7000-logo.png) |
+| ![高中7000單](/blog/images/words7000-logo.png) | ![高中7000單](/blog/images/words7000-logo.png) | ![高中7000單](/blog/images/words7000-logo.png) |
 
 ## 前言：
 
@@ -33,7 +33,7 @@ title: "我如何製作「高中7000單」測驗Line bot"
 
 最開始的設計只有「開始測驗」跟「得分」，在後來的開發階段才出現「我的字庫」的想法，讓使用者可以複習自己不熟悉的單字
 
-![高中7000單-richmenu](/images/words7000-linerichmenu.jpg)
+![高中7000單-richmenu](/blog/images/words7000-linerichmenu.jpg)
 
 ---
 
@@ -43,7 +43,7 @@ title: "我如何製作「高中7000單」測驗Line bot"
 
 其次是`postback`，這會在接下來開始測驗之後大量使用在「按鈕」物件之上，並且可以隨之夾帶相應的參數回傳，像是當使用者按下題目的答案之一時，就是使用`postback`來回傳該答案的`id`，後台取得資料後比對是否與正確答案相符合，在回應出是否正確答案的回應
 
-| ![高中7000單-question](/images/words7000-question.jpg) | ![高中7000單-right](/images/words7000-right.jpg) | ![高中7000單-wrong](/images/words7000-wrong.jpg) |
+| ![高中7000單-question](/blog/images/words7000-question.jpg) | ![高中7000單-right](/blog/images/words7000-right.jpg) | ![高中7000單-wrong](/blog/images/words7000-wrong.jpg) |
 
 ---
 
@@ -110,7 +110,7 @@ fs.writeFile('./words.json', JSON.stringify(words), function (error, data) {
 
 「我的字庫」是用來瀏覽在測驗中儲存的不熟悉單字，點擊之後會列出使用者儲存的所有單字，但是礙於Line API的限制（`carousel`最多只能10頁），目前單字量儲存的上限是70個單字。點擊列表中單字的「查看」按鈕，就可以查詢該單字的詳細解釋和翻譯，翻譯來源來自[天火字典](https://cdict.info/)（本Line bot為免費提供所有需要的用戶使用，如有侵權請[來信](mailto:zenkarsha@gmail.com)告知），包含了音標、翻譯、例句、詞態等等。
 
-| ![高中7000單-collection-list](/images/words7000-collection-list.jpg) | ![高中7000單-collection-detail](/images/words7000-collection-detail.jpg) |
+| ![高中7000單-collection-list](/blog/images/words7000-collection-list.jpg) | ![高中7000單-collection-detail](/blog/images/words7000-collection-detail.jpg) |
 
 ---
 
