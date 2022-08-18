@@ -108,7 +108,7 @@ fs.writeFile('./words.json', JSON.stringify(words), function (error, data) {
 
 ### 關於我的字庫
 
-「我的字庫」是用來瀏覽在測驗中儲存的不熟悉單字，點擊之後會列出使用者儲存的所有單字，但是礙於Line API的限制（`carousel`最多只能10頁），目前單字量儲存的上限是70個單字。點擊列表中單字的「查看」按鈕，就可以查詢該單字的詳細解釋和翻譯，翻譯來源來自[天火字典](https://cdict.info/)（本Line bot為免費提供所有需要的用戶使用，如有侵權請[來信](mailto:zenkarsha@gmail.com)告知），包含了音標、翻譯、例句、詞態等等。
+「我的字庫」是用來瀏覽在測驗中儲存的不熟悉單字，點擊之後會列出使用者儲存的所有單字，但是礙於Line API的限制（`carousel`最多只能10頁），目前單字量儲存的上限是70個單字。點擊列表中單字的「查看」按鈕，就可以查詢該單字的詳細解釋和翻譯，翻譯來源來自[天火字典](https://cdict.info/)（本Line bot為免費提供所有需要的用戶使用，如有侵權請[來信](mailto:zenkarsha@protonmail.com)告知），包含了音標、翻譯、例句、詞態等等。
 
 | ![高中7000單-collection-list](/blog/images/words7000-collection-list.jpg) | ![高中7000單-collection-detail](/blog/images/words7000-collection-detail.jpg) |
 
