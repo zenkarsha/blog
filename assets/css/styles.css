@@ -99,7 +99,15 @@ table {
 
 th, td {
   text-align:left;
-  padding:5px 0;
+  padding:0 5px;
+}
+
+th, td:first-child {
+  padding-left: 0;
+}
+
+th, td:last-child {
+  padding-right: 0;
 }
 
 dt {

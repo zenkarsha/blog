@@ -6,7 +6,7 @@
 ### add new post
 
 ```
-thor jekyll:new The title of the new post
+thor jekyll:new THE_TITLE_OF_POST
 ```
 
 

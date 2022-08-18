@@ -4,6 +4,7 @@ baseurl: '/'
 url: 'https://zenkarsha.github.io/blog'
 
 title: blog
+owner_name: "about:blank"
 description: 日常雜記，偶爾寫些coding心得
 navigation:
   - title: biography
