@@ -49,7 +49,7 @@ title: "我如何製作「高中7000單」測驗Line bot"
 
 ### 字庫來源
 
-本Line bot使用的7000單字彙來源下載自：(【Excel教學】如何解析高中7000單字表)[https://youtu.be/gfIakR46pJE]，使用regex解析後為如下格式：
+本Line bot使用的7000單字彙來源下載自：[【Excel教學】如何解析高中7000單字表](https://youtu.be/gfIakR46pJE)，使用regex解析後為如下格式：
 
 ```
 {
