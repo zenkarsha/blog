@@ -14,5 +14,6 @@ thor jekyll:new THE_TITLE_OF_POST
 
 ```
 bundle install
-bundle exec jekyll serve
+bundle add webrick
+bundle exec jekyll serve --trace
 ```

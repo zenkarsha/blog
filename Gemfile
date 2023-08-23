@@ -34,3 +34,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'thor'
 gem 'stringex'
+
+gem "webrick", "~> 1.8"
