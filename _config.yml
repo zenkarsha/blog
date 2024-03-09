@@ -9,8 +9,6 @@ description: 日常雜記，偶爾寫些coding心得
 navigation:
   - title: works
     url: https://zenkarsha.github.io/works/
-  - title: twitter
-    url: https://twitter.com/zenkarsha/
 
 plugins:
   - jekyll-feed
